@@ -21,7 +21,7 @@ paginate = 5
   fullWidthTheme = true
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -47,7 +47,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Victor Website"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = "Testing changing website"
     owner = ""
     keywords = ""
     copyright = ""
