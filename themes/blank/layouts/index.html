@@ -1,4 +1,14 @@
+<head>
+<title>This is a title</title>
+<h1>This is a header </h1>
+</head>
+
+<body>
+<h1>
+This is a header
+</h1>
 {{ define "main" }}
+<p>This is a paragraph</h>
 	<main>
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
@@ -8,3 +18,4 @@
 	</main>
 {{ partial "sidebar.html" . }}
 {{ end }}
+</body>
